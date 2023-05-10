@@ -104,8 +104,6 @@ For more details see [Parameters optimizing.md](./ParameterOptimizing.md).
 
 #### Series articles and videos
 
-crvUSD is heavily affected by arbitrageurs' behaviors during different price movements, which means testing in prod is prior to audits on testnets. The parameters are challenging for users to understand.
-
 - help to build leveraged crvUSD UI or website since many people want crvUSD to get an Euler-Finance-like leverage.
 - write articles to help people understand the crvUSD's principles
 - making videos for introducing crvUSD to people.
