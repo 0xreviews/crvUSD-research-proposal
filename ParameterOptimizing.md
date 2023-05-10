@@ -28,7 +28,7 @@ LLAMMA has **two major pros**:
 
 LLAMMA uses an oracle to sell when the price is down and to buy when the price is up, which means that arbitrageurs' profits directly come from depositors' losses. Setting a higher dynamic_fee does protect users' positions from frequent arbitrage. However, a higher dynamic_fee means arbitrageurs are waiting for bigger price spreads between AMM and oracles to arbitrage, making users suffer more losses.
 
-##### set dynamic \_fee smaller
+## set dynamic \_fee smaller
 
 **Let's take an example considering 0 gas and 0 profit for arbitrageurs. Set the dynamic \_fee from 0.3% to 0.1% and see what would happen.**
 
@@ -65,15 +65,15 @@ $$
 
 **Obviously, there are more losses if we set dynamic_fee to 0.3%. What will happen if we set dynamic_fee to 0.1% and even lower or 0.**
 
-###### set N=4 and N=5 difference
+## set N=4 and N=5 difference
 
 Users get different Max LTV ratios and health and loss limits.
 
-###### Setting parameters A to 100,200 or 500?
+## Setting parameters A to 100,200 or 500?
 
 We found an exciting thing. If you set bigger A, **arbitrageurs** will get bigger $y_0$ which means arbitrageurs will get fewer assets and fewer losses for users. Of course, a bigger A will lead to many other problems like higher gas and less arbitrage. However, sometimes bigger A will lead p_out to jump out of active_band easier and cause more significant losses for users or profit for arbitrageurs.
 
-###### What will Max-LTV-crvUSD borrowers will experience?
+## What will Max-LTV-crvUSD borrowers will experience?
 
 From 2022-01-01 to 2023-04-20, Bob chose an arbitrary time to deposit his ETH, got max crvUSD, and held crvUSD for 30 days to get a payoff.
 
@@ -93,7 +93,7 @@ If every 15 minutes from 2022-01-01 to 2023-04-20, a user like Bob is using Max-
 - Chart3-hold_loss_percent:
   Considering gas and profit, if the spreads between AMM price and oracle price is above 0.5%, the arbitrage happened—arbitrageurs' profit probability distribution of his returns.
 
-###### Set loan_discount to 5% or 9%?
+## Set loan_discount to 5% or 9%?
 
 ![figure](./img/figure-02.png)
 

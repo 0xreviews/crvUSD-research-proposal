@@ -100,12 +100,6 @@ crvUSDsim is a tool simulating crvUSD pools with optimal arbitrageurs trading ag
 - Data backtesting framework:
   Simulate backtesting based on historical data and different situations (such as different risk preferences of arbitrageurs and different interest rate models), evaluate the results, and visualize them.
 
-**explanations about crvUSD(video in process)**
-Bob bought 1 ETH for 2,000 USDT and added 1 ETH to the protocol setting r = 9%, N = 5
-| <a href="./img/01-deposit-liquidity.png"><img align="top" src="./img/01-deposit-liquidity.png" /></a> | <a href="./img/02-price-down-in.png"><img align="top" src="./img/02-price-down-in.png" /></a> | <a href="./img/03-price-down-out.png"><img align="top" src="./img/03-price-down-out.png" /></a> |
-| - | - | - |
-| <a href="./img/04-price-up-in.png"><img align="top" src="./img/04-price-up-in.png" /></a> | <a href="./img/05-price-up-out.png"><img align="top" src="./img/05-price-up-out.png" /></a> | - |
-
 For more details see [Parameters optimizing.md](./ParameterOptimizing.md).
 
 #### Series articles and videos
@@ -117,6 +111,12 @@ crvUSD is heavily affected by arbitrageurs' behaviors during different price mov
 - making videos for introducing crvUSD to people.
 - parameters setting and optimizing
 - following other oracle-depending AMM projects' methods
+
+**explanations about crvUSD(video in process)**
+Bob bought 1 ETH for 2,000 USDT and added 1 ETH to the protocol setting r = 9%, N = 5
+| <a href="./img/01-deposit-liquidity.png"><img align="top" src="./img/01-deposit-liquidity.png" /></a> | <a href="./img/02-price-down-in.png"><img align="top" src="./img/02-price-down-in.png" /></a> | <a href="./img/03-price-down-out.png"><img align="top" src="./img/03-price-down-out.png" /></a> |
+| - | - | - |
+| <a href="./img/04-price-up-in.png"><img align="top" src="./img/04-price-up-in.png" /></a> | <a href="./img/05-price-up-out.png"><img align="top" src="./img/05-price-up-out.png" /></a> | - |
 
 #### Exploring other LLAMMA's features like leveraged crvUSD & call-options-like crvUSD
 
