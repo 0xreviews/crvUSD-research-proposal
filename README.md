@@ -59,17 +59,17 @@ We aim to build a research platform to provide developers and users with a more 
 ![crvUSD-simulator.gif](./img/crvUSD-simulator.png)
 
 - **A website visualizing the principle of crvUSD** trying to help people understand crvUSD: [crvusd.0xreviews.xyz](https://crvusd.0xreviews.xyz/)
-- **An supplementary article for crvUSD's whitepaper** for those who find it too hard to understand but are familiar with Uniswap V3: [https://0xreviews.xyz/pdf/From_Uniswap_v3_to_crvUSD_LLAMMA.pdf](https://0xreviews.xyz/pdf/From_Uniswap_v3_to_crvUSD_LLAMMA.pdf)
-- **An article explaining mechanism of crvUSD** [https://paco0x.org/curve-stablecoin](https://paco0x.org/curve-stablecoin/)
+- **A supplementary article for crvUSD's whitepaper** for those who find it too hard to understand but are familiar with Uniswap V3: [https://0xreviews.xyz/pdf/From_Uniswap_v3_to_crvUSD_LLAMMA.pdf](https://0xreviews.xyz/pdf/From_Uniswap_v3_to_crvUSD_LLAMMA.pdf)
+- **An article explaining the mechanism of crvUSD** [https://paco0x.org/curve-stablecoin](https://paco0x.org/curve-stablecoin/)
 - **other things about Curve V1&V2**
 
-[Click here to see more previous works](./PreviousWork.md)
+[Click here to see more previous works.](./PreviousWork.md)
 
 ### Research plan
 
 #### Parameters optimizing
 
-crvUSDsim is a tool simulating crvUSD pools with optimal arbitrageurs trading against them to check parameters for onboarding new collateral. Its primary use is to determine optimal A (a measure of concentration of liquidity), fee parameters, and loan_discount given historical price and volume feeds, liquidation_discount, policy_rate.
+crvUSDsim is a tool simulating crvUSD pools with optimal arbitrageurs trading against them to check parameters for onboarding new collateral. Its primary use is to determine optimal A (a measure of the concentration of liquidity), fee parameters, loan_discount given historical price and volume feeds, liquidation_discount, policy_rate.
 
 **Features**
 
@@ -87,17 +87,17 @@ crvUSDsim is a tool simulating crvUSD pools with optimal arbitrageurs trading ag
 - Data backtesting framework:
   Simulate backtesting based on historical data and different situations (such as different risk preferences of arbitrageurs and different interest rate models), evaluate the results, and visualize them.
 
-For more details see [Parameters optimizing.md](./ParameterOptimizing.md).
+For more details, see [Parameters optimizing.md](./ParameterOptimizing.md).
 
 #### Series articles and videos
 
-- help to build leveraged crvUSD UI or website since many people want crvUSD to get an Euler-Finance-like leverage.
-- write articles to help people understand the crvUSD's principles
-- making videos for introducing crvUSD to people.
-- parameters setting and optimizing
-- following other oracle-depending AMM projects' methods
+- Help to build leveraged crvUSD UI or website since many people want crvUSD to get an Euler-Finance-like leverage.
+- Writing articles to help people understand the crvUSD's principles
+- Making videos for introducing crvUSD to people.
+- Parameters setting and optimizing
+- Following other oracle-depending AMM projects' methods
 
-**explanations about crvUSD(video in process)**
+**Explanations about crvUSD(video in the process)**
 Bob bought 1 ETH for 2,000 USDT and added 1 ETH to the protocol setting r = 9%, N = 5
 | <a href="./img/01-deposit-liquidity.png"><img align="top" src="./img/01-deposit-liquidity.png" /></a> | <a href="./img/02-price-down-in.png"><img align="top" src="./img/02-price-down-in.png" /></a> | <a href="./img/03-price-down-out.png"><img align="top" src="./img/03-price-down-out.png" /></a> |
 | - | - | - |
@@ -113,6 +113,8 @@ For example, set loan_discount below 5% and N=4, users will use crvUSD to get an
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 
 ## One-year roadmap
+
+We will only apply for the following grant for the second half-year if we can achieve the goals set for the first half-year.
 
 **2023 Q2**
 
@@ -142,9 +144,9 @@ For example, set loan_discount below 5% and N=4, users will use crvUSD to get an
 ### Salaries
 
 - **Total: $225,000**
-  - 0xstan: Full-time (40h/w) - $100,000 for half year
-  - 0xmc: Full-time (40h/w) - $100,000 for half year
-  - paco0x: Part-time (10h/w) - $25,000 for half year
+  - 0xstan: Full-time (40h/w) - $100,000 for a half year
+  - 0xmc: Full-time (40h/w) - $100,000 for a half year
+  - paco0x: Part-time (10h/w) - $25,000 for a half year
 
 #### Payments
 

@@ -5,7 +5,7 @@
 - [set dynamic _fee smaller](#set-dynamic-_fee-smaller)
 - [set N=4 and N=5 difference](#set-N=4-and-N=5-difference)
 - [Setting parameters A to 100,200 or 500?](#Setting-parameters-A-to-100%2C200-or-500%3F)
-- [What will Max-LTV-crvUSD borrowers will experience?](#What-will-Max-LTV-crvUSD-borrowers-will-experience%3F)
+- [What will Max-LTV-crvUSD borrowers experience?](#What-will-Max-LTV-crvUSD-borrowers-experience%3F)
 - [Set loan_discount to 5% or 9%?](#Set-loan_discount-to-5%-or-9%%3F)
 
 ## Overview
@@ -65,7 +65,7 @@ $$
 - **dynamic_fee = 0.3%.** After arbitraging 1 time, arbitrageurs' exchange avg price is 1802.13 profit rate = 0.6839%
 - **dynamic_fee = 0.1%.** After arbitraging 3 times, each time when the price falls by **0.1%,** arbitrageurs' exchange avg price is 1802.13 profit rate = 0.2166%
 
-**Obviously, there are more losses if we set dynamic_fee to 0.3%. What will happen if we set dynamic_fee to 0.1% and even lower or 0.**
+**Obviously, there are more losses if we set dynamic_fee to 0.3%. What will happen if we set dynamic_fee to 0.1% and even lower or 0?**
 
 ## set N=4 and N=5 difference
 
@@ -75,7 +75,7 @@ Users get different Max LTV ratios and health and loss limits.
 
 We found an exciting thing. If you set bigger A, **arbitrageurs** will get bigger $y_0$ which means arbitrageurs will get fewer assets and fewer losses for users. Of course, a bigger A will lead to many other problems like higher gas and less arbitrage. However, sometimes bigger A will lead p_out to jump out of active_band easier and cause more significant losses for users or profit for arbitrageurs.
 
-## What will Max-LTV-crvUSD borrowers will experience?
+## What will Max-LTV-crvUSD borrowers experience?
 
 From 2022-01-01 to 2023-04-20, Bob chose an arbitrary time to deposit his ETH, got max crvUSD, and held crvUSD for 30 days to get a payoff.
 
