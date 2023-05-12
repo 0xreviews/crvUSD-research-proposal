@@ -9,7 +9,7 @@
   - [Team overview](#Team-overview)
   - [Team roles and responsibilities](#Team-roles-and-responsibilities)
 - [Specifications](#Specifications)
-  - [Previous work](#Previous-work)
+  - [Previous works](#Previous-works)
   - [Research plan](#Research-plan)
     - [Parameters optimizing](#Parameters-optimizing)
     - [Series articles and videos](#Series-articles-and-videos)
@@ -23,7 +23,7 @@
 
 ### Sentence summary
 
-- We are applying for a **$464,000 grant for 3 people for 1 year to fully support Curve Research Hub,** including explanation articles and videos of codes, math, mechanism, and security of Curve and crvUSD, as well as building tools of crvUSD which contains crvUSDsim to check onboarding new collateral.
+- We are applying for a **$230,000 grant for 3 people for half year to fully support Curve Research Hub,** including explanation articles and videos of codes, math, mechanism, and security of Curve and crvUSD, as well as building tools of crvUSD which contains crvUSDsim to check onboarding new collateral.
 
 ### Summary
 
@@ -54,7 +54,7 @@ We aim to build a research platform to provide developers and users with a more 
 
 ## Specifications
 
-### Previous work
+### Previous works
 
 ![crvUSD-simulator.gif](./img/crvUSD-simulator.png)
 
@@ -63,20 +63,7 @@ We aim to build a research platform to provide developers and users with a more 
 - **An article explaining mechanism of crvUSD** [https://paco0x.org/curve-stablecoin](https://paco0x.org/curve-stablecoin/)
 - **other things about Curve V1&V2**
 
-| catecory               | content                                                                                                                                                             |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| whitepaper explanation | Curve V2 https://twitter.com/0xstan_/status/1644931391111725057                                                                                                     |
-| codes explanations     | Repegging of Curve v2 CryptoSwap https://0xreviews.xyz/posts/2022-03-04-Curve-CryptoSwap-repegging                                                                  |
-|                        | Curve v2 CryptoSwap: add and remove liquidity https://0xreviews.xyz/posts/2022-03-02-Curve-CryptoSwap-liquidity                                                     |
-|                        | Curve v2 CryptoSwap: exchange and fee https://0xreviews.xyz/posts/2022-03-03-Curve-CryptoSwap-exchange                                                              |
-|                        | Repegging of Curve v2 CryptoSwap https://0xreviews.xyz/posts/2022-03-04-Curve-CryptoSwap-repegging                                                                  |
-|                        | Curve v1 StableSwap code review https://0xreviews.xyz/posts/2022-02-12-Curve-v1-StableSwap                                                                          |
-| math explanations      | Curve v2 CryptoSwap: white paper https://0xreviews.xyz/posts/2022-03-01-Curve-CryptoSwap-whitepaper                                                                 |
-|                        | Newton Methods: help to understand how to get every Newton method codes from formulas of Curve V2 and V1 https://0xreviews.xyz/posts/2022-02-28-curve-newton-method |
-|                        | Curve v2 CryptoSwap: math lib https://0xreviews.xyz/posts/2022-03-05-Curve-CryptoSwap-mathlib                                                                       |
-| video explanations     | Curve V2 CryptoSwap: whitepaper. https://www.youtube.com/watch?v=CKfoXO66wGc                                                                                        |
-|                        | Curve V1 https://www.youtube.com/watch?v=pjwLIsZydmk                                                                                                                |
-|                        | Curve V1 https://www.youtube.com/watch?v=1BOilqC3x8U                                                                                                                |
+[Click here to see more previous works](./PreviousWork.md)
 
 ### Research plan
 
@@ -129,23 +116,21 @@ For example, set loan_discount below 5% and N=4, users will use crvUSD to get an
 
 **2023 Q2**
 
-- Curve research hub website.
-- crvUSD artbitrageurs bot testing
+- Curve research hub website
 - crvUSDbook
 - crvUSD arbitrageurs' behavior analytic
 
 **2023 Q3**
 
-- writing reports measuring risk and performances
-- CurveV1_book, CurveV2_book
-- crvUSD parameters setting and optimizing
-- oracle mechanism
+- crvUSD parameters setting and optimizing tools (crvUSDsim)
+- crvUSD pool visualizing
+- crvUSD, Curve V1&V2 videos
 
 **2023 Q4**
 
-- parameters setting and optimizing tools
-- crvUSD pool visualizing
-- crvUSD, Curve V1&V2 videos
+- writing reports measuring risk and performances
+- CurveV1_book, CurveV2_book
+- oracle mechanism
 
 **2024 Q1**
 
@@ -156,19 +141,26 @@ For example, set loan_discount below 5% and N=4, users will use crvUSD to get an
 
 ### Salaries
 
-- **Total: $450,000**
-  - 0xstan: Full-time (40h/w) - $200,000
-  - 0xmc: Full-time (40h/w) - $200,000
-  - paco0x: Part-time (10h/w) - $50,000
+- **Total: $225,000**
+  - 0xstan: Full-time (40h/w) - $100,000 for half year
+  - 0xmc: Full-time (40h/w) - $100,000 for half year
+  - paco0x: Part-time (10h/w) - $25,000 for half year
+
+#### Payments
+
+Both payment methods are acceptable, with payment 2 preferred.
+
+1. Pay for 6 months.
+2. Pay quarter for 3 months. Before another quarter payment, there will be a review.
 
 ### Infrastructure, and operational costs
 
 Infrastructure costs are estimated. Unused funds at the end of the grant period will be returned to the DAO.
 
-**Total: $14,000**
+**Total: $5,000**
 
 - Domain names & ENS: $100
-- Cloud services (Hosting, static public IPs, CDN, load balancer): $6000 ($500 \* 12)
-- Archival node access for Ethereum mainnet: $600 ($49/m on Alchemy)
-- Operational costs (gas costs for contract deployments & transactions): $7300.
+- Cloud services (Hosting, static public IPs, CDN, load balancer): $3000 ($500 \* 6)
+- Archival node access for Ethereum mainnet: $300 ($49/m on Alchemy)
+- Operational costs (gas costs for contract deployments & transactions): $1600.
   Unused funds at the end of the grant period will be returned to the DAO.
