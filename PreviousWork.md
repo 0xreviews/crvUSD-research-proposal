@@ -1,6 +1,5 @@
 # PreviousWork
 
-
 | catecory               | content                                                                                                                                                             |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | whitepaper explanation | Curve V2 https://twitter.com/0xstan_/status/1644931391111725057                                                                                                     |
@@ -15,5 +14,7 @@
 | video explanations     | Curve V2 CryptoSwap: whitepaper. https://www.youtube.com/watch?v=CKfoXO66wGc                                                                                        |
 |                        | Curve V1 https://www.youtube.com/watch?v=pjwLIsZydmk                                                                                                                |
 |                        | Curve V1 https://www.youtube.com/watch?v=1BOilqC3x8U                                                                                                                |
+| security               | Liquity Oracle Issue Bug Bounty: https://www.liquity.org/blog/tellor-issue-and-fix                                                                                  |
+|                        | crvUSD Controller repay Issue: https://twitter.com/CurveFinance/status/1654405977674743809                                                                          |
 
 ![crvUSD-simulator.gif](./img/crvUSD-simulator.png)
