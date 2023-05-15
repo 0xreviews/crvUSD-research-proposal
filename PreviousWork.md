@@ -15,3 +15,5 @@
 | video explanations     | Curve V2 CryptoSwap: whitepaper. https://www.youtube.com/watch?v=CKfoXO66wGc                                                                                        |
 |                        | Curve V1 https://www.youtube.com/watch?v=pjwLIsZydmk                                                                                                                |
 |                        | Curve V1 https://www.youtube.com/watch?v=1BOilqC3x8U                                                                                                                |
+
+![crvUSD-simulator.gif](./img/crvUSD-simulator.png)

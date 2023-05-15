@@ -30,7 +30,7 @@
 We aim to build a research platform to provide developers and users with a more systematic and intuitive product and code introduction. We will give in-depth reports measuring risk and performance quarterly. And build tools to promote Curve ecosystem, including **crvUSDsim**, leveraged crvUSD & call-options-like crvUSD.
 **The specific products to be delivered are as follows:**
 
-- crvUSD parameter optimization report and tools to check onboarding new collateral (More details refer to [Parameters optimizing](#Parameters-optimizing))
+- parameter optimization reports and **crvUSDsim** (similar to [curvesim](https://github.com/curveresearch/curvesim)) to check onboarding new collateral (More details refer to [Parameters optimizing](#Parameters-optimizing))
 - crvUSD arbitrageur's behavior analytic
 - Curve Research Hub's official website
 - crvUSD_book, Curve_V1_book, Curve_V2_book (similar to [UniswapV3Book](https://uniswapv3book.com/) to guide you through the development of Uniswap)
@@ -56,14 +56,12 @@ We aim to build a research platform to provide developers and users with a more 
 
 ### Previous works
 
-![crvUSD-simulator.gif](./img/crvUSD-simulator.png)
-
 - **A website visualizing the principle of crvUSD** trying to help people understand crvUSD: [crvusd.0xreviews.xyz](https://crvusd.0xreviews.xyz/)
 - **A supplementary article for crvUSD's whitepaper** for those who find it too hard to understand but are familiar with Uniswap V3: [https://0xreviews.xyz/pdf/From_Uniswap_v3_to_crvUSD_LLAMMA.pdf](https://0xreviews.xyz/pdf/From_Uniswap_v3_to_crvUSD_LLAMMA.pdf)
 - **An article explaining the mechanism of crvUSD** [https://paco0x.org/curve-stablecoin](https://paco0x.org/curve-stablecoin/)
 - **other things about Curve V1&V2**
 
-[Click here to see more previous works.](./PreviousWork.md)
+[Click here to see 12 more previous works.](./PreviousWork.md)
 
 ### Research plan
 
