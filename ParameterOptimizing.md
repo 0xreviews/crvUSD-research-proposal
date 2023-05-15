@@ -89,7 +89,7 @@ If every 15 minutes from 2022-01-01 to 2023-04-20, a user like Bob is using Max-
 
 - Chart 1 -last_pnl:
   crvUSD protocol's PNL. Assuming there is no discount liquidation—every user's PNL & probability of ETH put into the protocol.
-  In most cases, positions stay at around 89%, and a minority of positions remain below 89%, which means Max-LTV-crvUSD borrowers will not likely cause damage to protocol because positions below 89% means protocol will have to undertake responsibility for liquidations.
+  In most cases, positions stay at around 89%, and a minority of positions remain below 89%, which means Max-LTV-crvUSD borrowers will not likely cause damage to protocol because positions below 89% means protocol will start discount liquidation.
 - Chart 2-bench_pnl:
   In contrast to traditional collateral stablecoin protocols, Each user's collateral PNL.
 - Chart3-hold_loss_percent:
