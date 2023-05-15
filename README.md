@@ -119,7 +119,7 @@ We will only apply for the following grant for the second half-year if we can ac
 
 - crvUSD parameters researching
 - crvUSDbook
-- crvUSD arbitrageurs' behavior analytic
+- crvUSD arbitrageurs' behavior analysis
 
 **2023 Q3**
 
