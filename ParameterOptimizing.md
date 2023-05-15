@@ -2,11 +2,11 @@
 
 ## Index
 
-- [set dynamic _fee smaller](#set-dynamic-_fee-smaller)
-- [set N=4 and N=5 difference](#set-N=4-and-N=5-difference)
+- [Setting dynamic _fee smaller](#Setting-dynamic-_fee-smaller)
+- [Setting N=4 and N=5](#Setting-N=4-and-N=5)
 - [Setting parameters A to 100,200 or 500?](#Setting-parameters-A-to-100%2C200-or-500%3F)
 - [What will Max-LTV-crvUSD borrowers experience?](#What-will-Max-LTV-crvUSD-borrowers-experience%3F)
-- [Set loan_discount to 5% or 9%?](#Set-loan_discount-to-5%-or-9%%3F)
+- [Setting loan_discount to 5% or 9%?](#Setting-loan_discount-to-5%-or-9%%3F)
 
 ## Overview
 
@@ -30,7 +30,7 @@ LLAMMA has **two major pros**:
 
 LLAMMA uses an oracle to sell when the price is down and to buy when the price is up, which means that arbitrageurs' profits directly come from depositors' losses. Setting a higher dynamic_fee does protect users' positions from frequent arbitrage. However, a higher dynamic_fee means arbitrageurs are waiting for bigger price spreads between AMM and oracles to arbitrage, making users suffer more losses.
 
-## set dynamic \_fee smaller
+## Setting dynamic \_fee smaller
 
 **Let's take an example considering 0 gas and 0 profit for arbitrageurs. Set the dynamic \_fee from 0.3% to 0.1% and see what would happen.**
 
@@ -67,7 +67,7 @@ $$
 
 **Obviously, there are more losses if we set dynamic_fee to 0.3%. What will happen if we set dynamic_fee to 0.1% and even lower or 0?**
 
-## set N=4 and N=5 difference
+## Setting N=4 and N=5
 
 Users get different Max LTV ratios and health and loss limits.
 
@@ -88,14 +88,14 @@ If every 15 minutes from 2022-01-01 to 2023-04-20, a user like Bob is using Max-
 ![figure](./img/figure-01.png)
 
 - Chart 1 -last_pnl:
-  crvUSD protocol's PNL. Assuming there is no traditional liquidation—every user's ETH is in the protocol's PNL& probability.
-  In most cases, positions stay at around 89%, and a minority of positions remain below 89%, which means Max-LTV-crvUSD borrowers will not likely cause damage to protocol because places below 89% means protocol will have to undertake responsibility for liquidations.
+  crvUSD protocol's PNL. Assuming there is no discount liquidation—every user's PNL & probability of ETH put into the protocol.
+  In most cases, positions stay at around 89%, and a minority of positions remain below 89%, which means Max-LTV-crvUSD borrowers will not likely cause damage to protocol because positions below 89% means protocol will have to undertake responsibility for liquidations.
 - Chart 2-bench_pnl:
-  In contrast to traditional collateral stablecoin protocols, Each user's collateral pnl
+  In contrast to traditional collateral stablecoin protocols, Each user's collateral PNL.
 - Chart3-hold_loss_percent:
   Considering gas and profit, if the spreads between AMM price and oracle price is above 0.5%, the arbitrage happened—arbitrageurs' profit probability distribution of his returns.
 
-## Set loan_discount to 5% or 9%?
+## Setting loan_discount to 5% or 9%?
 
 ![figure](./img/figure-02.png)
 
@@ -105,6 +105,6 @@ EMA price： EMA of Mid-price
 
 Price movements between 30 days follow a normal distribution.
 
-**set loan_discount= r=5%. When there is a price dump, 60% of the dump will not trigger arbitraging.**
+**set loan_discount= r=5%. 60% dump will not exceed 6% and trigger arbitraging.**
 
-**set loan_discount=r=9%. When there is a price dump, 90% of the dump will not trigger arbitraging.**
+**set loan_discount=r=9%. 90% dump will not exceed 9% and trigger arbitraging.**

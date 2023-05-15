@@ -23,14 +23,14 @@
 
 ### Sentence summary
 
-- We are applying for a **$230,000 grant for 3 people for half year to fully support Curve Research Hub,** including explanation articles and videos of codes, math, mechanism, and security of Curve and crvUSD, as well as building tools of crvUSD which contains crvUSDsim to check onboarding new collateral.
+- We are applying for a **$230,000 grant for 3 people for half year to fully support Curve Research Hub,** including building tools of crvUSD which contains **crvUSDsim** to check onboarding new collateral, as well as explanation articles and videos of codes, math, mechanism, and security of Curve and crvUSD.
 
 ### Summary
 
-We aim to build a research platform to provide developers and users with a more systematic and intuitive product and code introduction. We will give in-depth reports measuring risk and performance quarterly. And build tools to promote Curve ecosystem, including **crvUSDsim**, leveraged crvUSD & call-options-like crvUSD.
+We aim to build **crvUSDsim** to check onboarding new collateral and give in-depth reports measuring the risk and performance of crvUSD quarterly. And build tools to promote Curve ecosystem, including leveraged crvUSD & call-options-like crvUSD. Help to build a research platform to provide developers and users with more in-depth information.
 **The specific products to be delivered are as follows:**
 
-- parameter optimization reports and **crvUSDsim** (similar to [curvesim](https://github.com/curveresearch/curvesim)) to check onboarding new collateral (More details refer to [Parameters optimizing](#Parameters-optimizing))
+- parameter optimization reports and crvUSDsim (similar to [curvesim](https://github.com/curveresearch/curvesim)) to check onboarding new collateral (More details refer to [Parameters optimizing](#Parameters-optimizing))
 - crvUSD arbitrageur's behavior analytic
 - Curve Research Hub's official website
 - crvUSD_book, Curve_V1_book, Curve_V2_book (similar to [UniswapV3Book](https://uniswapv3book.com/) to guide you through the development of Uniswap)
@@ -85,14 +85,13 @@ crvUSDsim is a tool simulating crvUSD pools with optimal arbitrageurs trading ag
 - Data backtesting framework:
   Simulate backtesting based on historical data and different situations (such as different risk preferences of arbitrageurs and different interest rate models), evaluate the results, and visualize them.
 
-For more details, see [Parameters optimizing.md](./ParameterOptimizing.md).
+For more details, see what we are doing briefly [Parameters optimizing.md](./ParameterOptimizing.md).
 
 #### Series articles and videos
 
-- Help to build leveraged crvUSD UI or website since many people want crvUSD to get an Euler-Finance-like leverage.
 - Writing articles to help people understand the crvUSD's principles
 - Making videos for introducing crvUSD to people.
-- Parameters setting and optimizing
+- Parameters researching
 - Following other oracle-depending AMM projects' methods
 
 **Explanations about crvUSD(video in the process)**
@@ -102,6 +101,8 @@ Bob bought 1 ETH for 2,000 USDT and added 1 ETH to the protocol setting r = 9%, 
 | <a href="./img/04-price-up-in.png"><img align="top" src="./img/04-price-up-in.png" /></a> | <a href="./img/05-price-up-out.png"><img align="top" src="./img/05-price-up-out.png" /></a> | - |
 
 #### Exploring other LLAMMA's features like leveraged crvUSD & call-options-like crvUSD
+
+Help to build leveraged crvUSD UI or website since many people want crvUSD to get an Euler-Finance-like leverage.
 
 For example, set loan_discount below 5% and N=4, users will use crvUSD to get an American-style-call-option payoff with lower option fees (Because users will lose intrinsic value through every liquidation by arbitrageurs, however, the cost or the loss doesn't necessarily happen)
 
@@ -116,13 +117,13 @@ We will only apply for the following grant for the second half-year if we can ac
 
 **2023 Q2**
 
-- Curve research hub website
+- crvUSD parameters researching
 - crvUSDbook
 - crvUSD arbitrageurs' behavior analytic
 
 **2023 Q3**
 
-- crvUSD parameters setting and optimizing tools (crvUSDsim)
+- optimizing tools (crvUSDsim)
 - crvUSD pool visualizing
 - crvUSD, Curve V1&V2 videos
 
@@ -136,6 +137,7 @@ We will only apply for the following grant for the second half-year if we can ac
 
 - leveraged crvUSD opportunity
 - Exploring other LLAMMA's features like call options
+- Curve research hub website
 
 ## Budget
 
