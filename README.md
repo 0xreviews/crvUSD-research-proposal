@@ -23,7 +23,7 @@
 
 ### Sentence summary
 
-- We are applying for a **$230,000 grant for 3 people for half year to fully support Curve Research Hub,** including building tools of crvUSD which contains **crvUSDsim** to check onboarding new collateral, as well as explanation articles and videos of codes, math, mechanism, and security of Curve and crvUSD.
+- We are applying for a **$117,500 grant for 3 people for half year to fully support Curve Research Hub,** including building tools of crvUSD which contains **crvUSDsim** to check onboarding new collateral, as well as explanation articles and videos of codes, math, mechanism, and security of Curve and crvUSD.
 
 ### Summary
 
@@ -118,35 +118,36 @@ We will only apply for the following grant for the second half-year if we can ac
 **2023 Q2**
 
 - crvUSD parameters researching
-- crvUSDbook
 - crvUSD arbitrageurs' behavior analysis
 
 **2023 Q3**
 
 - optimizing tools (crvUSDsim)
 - crvUSD pool visualizing
-- crvUSD, Curve V1&V2 videos
+- writing reports measuring risk and performances
 
 **2023 Q4**
 
-- writing reports measuring risk and performances
-- CurveV1_book, CurveV2_book
+- crvUSDbook
+- CurveV1_book
+- CurveV2_book
 - oracle mechanism
+- Curve research hub website
 
 **2024 Q1**
 
+- crvUSD, Curve V1&V2 videos
 - leveraged crvUSD opportunity
 - Exploring other LLAMMA's features like call options
-- Curve research hub website
 
 ## Budget
 
 ### Salaries
 
-- **Total: $225,000**
-  - 0xstan: Full-time (40h/w) - $100,000 for a half year
-  - 0xmc: Full-time (40h/w) - $100,000 for a half year
-  - paco0x: Part-time (10h/w) - $25,000 for a half year
+- **Total: $112,500**
+  - 0xstan: Full-time (40h/w) - $50,000 for a half year
+  - 0xmc: Full-time (40h/w) - $50,000 for a half year
+  - paco0x: Part-time (10h/w) - $12,500 for a half year
 
 #### Payments
 
